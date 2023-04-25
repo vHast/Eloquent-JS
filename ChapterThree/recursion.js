@@ -19,7 +19,7 @@ function recurse() {
   recurse();
 }
 
-// recurse() // IT will overflow the stack since its not finished
+// recurse() // It will overflow the stack since its not finished
 
 // A recursive function is a function that calls itself, it must have a condition to stop itself, otherwise, its called indefinetly
 
@@ -32,5 +32,23 @@ function countDown (number) {
     countDown(newNumber)
   }
 }
+let number = 5;
 
 countDown(number); // 5, 4, 3, 2, 1
+
+function factorial(x) {
+
+  // if number is 0
+  if (x === 0) {
+
+    return 1;
+
+  // if number is positive
+  } else {
+    return x * factorial(x - 1);
+    
+  }
+}
+console.log(factorial(4)); // 24
+
+// 4 + 3 + 2 + 1 = 24
