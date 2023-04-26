@@ -14,13 +14,11 @@ console.log(min(10,55))
 
 const isEven = number => {
 
-  let boolVal;
-
   if (number < 0) {
     Math.abs(number); // Changing number into positive
   }
 
-  boolVal = number % 2 === 0; // Check if even
+  let boolVal = number % 2 === 0; // Check if even
   return boolVal;
 }
 
