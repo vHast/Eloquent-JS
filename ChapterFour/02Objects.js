@@ -7,7 +7,7 @@ let day1 = {
   events: ["work", "touched tree", "pizza", "running"]
 };
 
-// When an object is writtern over multiple lines, indenting it helps readibility
+// When an object is written over multiple lines, indenting it helps readibility
 
 let descriptions = {
   work: "Went to work",
