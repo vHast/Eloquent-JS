@@ -27,5 +27,15 @@ let anObject = {
   right: 2
 };
 
-delete anObject.left;
-console.log(anObject.left) // undefined
+console.log(anObject.left) // undefined 
+
+
+// * To find out what properties an object has, you can use the Object.keys function, you give it an object and it returns an array of strings, the objects property names
+
+let newKeys = {
+  x: 0,
+  y: 1,
+  z: 2
+}
+
+console.log(Object.keys(newKeys));
